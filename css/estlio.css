@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: url(../imagens/background.jpg) repeat-y #f6f6f6;
+}
+
+.area-login{
+    text-align: center;
+    float: right;      
+    margin-right: 75%;
+}
+
+#container-log-u{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    float: right; 
+}
+
+#login-u{
+    width: 300px;
+    text-align: left;
+    align-items: center;
+}
+
+#botao-u{
+    margin-top: 10px;
+    width: 100px;
+}
+
+.h2-u{
+    margin-left: 25px;
+    font-size: 100px;
+    padding: 0;
+}
+
+.p-u{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+#logo-u{
+    margin-top: 260px;
+    float: left;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover{
+    background: #FFC107;
+}

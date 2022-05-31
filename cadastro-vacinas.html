@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-tela-usuario.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>R.V.C.O - Resgistro de Vacina do Covid Online</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-fixed-1">
+            <div class="redes">
+                <a href="#">
+                    <p class="d-inline logo-tela-u text-primary clear"><strong class="text-warning"> R.V.C.O </strong> - Registro de Vacina do Covid Online</p>
+                </a>               
+                <img src="imagens/usuario.png" alt="" width="50px"> <span class="text-primary mr-3"> Gustavo Juscinski </span>
+                <a href="index.html" class="btn btn-outline-primary mr-3" style="width: 100px; border-radius: 50px;">Sair</a>
+            </div>
+        </nav>
+    </header>
+    <div class="clear"></div>
+    <div class="secao-form">
+        <fieldset>
+            <div class="form">
+            <h3 class="text-center text-primary mb-4">Cadastro de Vacinas</h3>
+            <form action="">
+                <label for="cpf">CPF:</label>
+                <input type="number" id="cpf" placeholder="Ex: 000.000.00-00" class="form-control input-cadastro">
+
+                <label for="dose">Qual Dose?</label>
+                <input type="number" id="dose" placeholder="Ex: 1ª" class="input-cadastro form-control">
+
+                <label for="lote-vacina">Lote da Vacina:</label>
+                <input type="number" id="lote-vacina" placeholder="Ex: 0001 " class="input-cadastro form-control">
+            
+                <label for="data-vaci">Data da Vacinação</label>
+                <input type="date" id="data-vaci" placeholder="dd/mm/aa" class="input-cadastro form-control">
+
+                <label for="local-vaci">Local da Vacinação</label>
+                <input type="text" id="local-vaci" placeholder="Ex: Posto de Saúde" class="input-cadastro form-control">                
+                
+                <a href="tela-funcionario.html" class="btn btn-outline-primary botao-form">Cadastrar</a>
+                
+            </form>
+        </div>
+        </fieldset>
+    </div>
+    <div class="clear"></div>
+    <hr class="divisor mt-5">
+    <footer>
+        <img src="imagens/rodape.png" alt="" width="220px" class="img1-rodape">
+        <img src="imagens/vacina-escrita.png" alt="" width="200px" class="img2-rodape">
+    </footer>
+    <div class="clear"></div>
+    <footer class="footer-2">
+        <p>Todos os direitos reservados &copy;</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

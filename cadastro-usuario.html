@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-tela-usuario.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>R.V.C.O - Resgistro de Vacina do Covid Online</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-fixed-1">
+            <div class="redes">
+                <a href="#">
+                    <p class="d-inline logo-tela-u text-primary clear"><strong class="text-warning"> R.V.C.O </strong> - Registro de Vacina do Covid Online</p>
+                </a>               
+                <img src="imagens/usuario.png" alt="" width="50px"> <span class="text-primary mr-3"> Gustavo Juscinski </span>
+                <a href="index.html" class="btn btn-outline-primary mr-3" style="width: 100px; border-radius: 50px;">Sair</a>
+            </div>
+        </nav>
+    </header>
+    <div class="clear"></div>
+    <div class="secao-form">
+        <fieldset>
+            <div class="form">
+            <h3 class="text-center text-primary mb-4">Cadastro de Usuários</h3>
+            <form action="">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" placeholder="Ex: Nome Sobrenome" class="input-cadastro form-control">
+
+                <label for="data-nasc">Data de Nascimento:</label>
+                <input type="date" id="data-nasc" class="input-cadastro form-control">
+
+                <label for="sexo">Sexo:</label>
+
+                <br>
+
+                <input type="radio" id="masc" class="input-cadastro"> Masculino
+                <input type="radio" id="masc" class="input-cadastro"> Feminino
+
+                <br>
+            
+                <label for="rg">RG:</label>
+                <input type="number" id="rg" placeholder="00.000.000-0" class="input-cadastro form-control">
+
+                <label for="cpf">CPF:</label>
+                <input type="number" id="cpf" placeholder="000.000.000-00" class="input-cadastro form-control">
+
+                <label for="sus">Cartão SUS:</label>
+                <input type="number" id="sus" placeholder="000.0000.0000.0000" class="input-cadastro form-control">
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" placeholder="Ex: Rua 10" class="input-cadastro form-control">
+
+                <label for="numero">Nº:</label>
+                <input type="number" id="numero" placeholder="Ex: 10" class="input-cadastro form-control">
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" placeholder="Ex: Cidade" class="input-cadastro form-control">
+
+                <label for="uf">UF:</label>
+                <select name="uf" id="uf" class="form-control">
+                    <option value="pr">AC</option>
+                    <option value="pr">AL</option>
+                    <option value="pr">AP</option>
+                    <option value="pr">AM</option>
+                    <option value="pr">BA</option>
+                    <option value="pr">CE</option>
+                    <option value="pr">DF</option>
+                    <option value="pr">ES</option>
+                    <option value="pr">GO</option>
+                    <option value="pr">MA</option>
+                    <option value="pr">MT</option>
+                    <option value="pr">MS</option>
+                    <option value="pr">MG</option>
+                    <option value="pr">PA</option>
+                    <option value="pr">PB</option>
+                    <option value="pr">PR</option>
+                    <option value="pr">PE</option>
+                    <option value="pr">PI</option>
+                    <option value="pr">RJ</option>
+                    <option value="pr">RN</option>
+                    <option value="pr">RS</option>
+                    <option value="pr">RO</option>
+                    <option value="pr">RR</option>
+                    <option value="pr">SC</option>                    
+                    <option value="pr">SP</option>
+                    <option value="pr">SE</option>
+                    <option value="pr">TO</option>
+                </select>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" autocomplete="off" placeholder="Ex: nome@email.com" class="input-cadastro form-control">
+
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="tel" class="input-cadastro form-control" placeholder="(00) 90000-0000">
+                
+                <br>
+            
+                <label for="comorbidade">Pessoa com Comorbidade?</label>
+
+                <br>
+
+                <input type="radio" id="masc" class="input-cadastro"> Sim
+                <input type="radio" id="masc" class="input-cadastro"> Não 
+
+                <br>
+                
+                <a href="tela-funcionario.html" class="btn btn-outline-primary botao-form">Cadastrar</a>
+            </form>
+        </div>
+        </fieldset>
+    </div>
+    <div class="clear"></div>
+    <hr class="divisor mt-5">
+    <footer>
+        <img src="imagens/rodape.png" alt="" width="220px" class="img1-rodape">
+        <img src="imagens/vacina-escrita.png" alt="" width="200px" class="img2-rodape">
+    </footer>
+    <div class="clear"></div>
+    <footer class="footer-2">
+        <p>Todos os direitos reservados &copy;</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
